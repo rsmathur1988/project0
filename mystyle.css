@@ -1,0 +1,110 @@
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:blue;
+  }
+  
+  li {
+    float: left;
+  }
+  li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover {
+background-color:grey;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color:blue;
+  }
+  body {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color:blue;
+  }
+#container {
+    font-size: 20px;
+  width: 550px;
+  color: blue;
+  border: 3px red double;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  
+}
+
+@media screen and(max-width: 600px)
+{ body {  background-color: yellow;
+            color: white;           }  
+}
+h1 {
+    color:blue ;
+    font-family: verdana;
+    font-size: 20px;
+}
+    
+  h3 {
+      color:black ;
+    font-family: verdana;
+    font-size: 100;
+  }
+  h4 {
+    color:black ;
+    font-family: verdana;
+    font-size: 100%;
+
+  }
+  p  {
+    color:blue;
+    font-family: courier;
+    font-size: 20px;
+  }
+ 
+  table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+   th, td {
+    padding: 5px;
+    text-align: center;
+    background-color:lightsalmon;
+  }
+ 
