@@ -1,5 +1,5 @@
 
- ul {
+ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,19 +7,20 @@
     background-color:blue;
   }
   
-  li {
+nav li {
     float: left;
   }
-  li a {
+  nav a {
 display: block;
 color: white;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
-li a:hover {
+nav a:hover {
 background-color:grey;
 }
+
 body {
     font-family: Helvetica, sans-serif;
     font-size: 20px;
